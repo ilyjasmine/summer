@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.toggle('light-theme');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-  }, 500000000000000000);
+  }, 500000);
 
   // Show version number
   var ver = document.getElementById('ver');
